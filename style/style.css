@@ -67,11 +67,10 @@
 
 }
 
-header{
+.about-us{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 407px;
     padding: 96px 0px;
 }
 
@@ -90,11 +89,73 @@ h1{
     margin-bottom: 40px;
 }
 
-p{
-    color: #667085;
+.about-us p{
+    color: var(--text-color);
     font-weight: 400;
     font-size: 20px;
     text-align: center;
     width: 791px;
     height: 60px;
+}
+
+.metricas-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 288px;
+    padding: 0 96px;
+}
+
+.metricas-container h2{
+    color: var(--main-color);
+    font-size: 60px;
+    line-height: 72px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    margin: 12px 0px;
+
+}
+
+.metricas-container h3{
+    color: #101828;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 8px 0px;
+}
+
+.metricas-container p{
+    width: 280px;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--text-color);
+    margin: 8px 0;
+    margin-right: 15px;
+}
+
+.vagas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px 0px;
+}
+
+.vagas h2{
+    color: #101828;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: -0.02em;
+    margin-bottom: 16px ;
+}
+
+.vagas p{
+    color: var(--text-color);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.vagas img{
+    width: 1216px;
+    height: 400px;
 }
