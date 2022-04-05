@@ -8,7 +8,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
-  }
+}
   
   body {
     width: 100%;
@@ -156,4 +156,146 @@ h1{
 .sessao-vagas img{
     width: 1216px;
     height: 400px;
+}
+
+.vagas-abertas {
+    width: 1440px;
+    height: 940px;    
+    margin-top: 64px;
+}
+
+.vagas-design-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 22px;
+    position: absolute;
+    width: 1440px;
+    height: 358px;
+    margin-right: 10px;
+}
+
+.vagas-design-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 12px;
+    width: 768px;
+    height: 358px;
+}
+
+.vagas-dev-container {
+    margin-top: 400px;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 22px;
+    position: absolute;
+    width: 1440px;
+    height: 518px;
+    margin-right: 10px;
+}
+
+.vagas-dev-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    width: 768px;
+    height: 358px;
+}
+
+.setor {
+    width: 768px;
+    height: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;    
+    color: #101828;
+}
+
+.job-post {
+    min-width: 768px;
+    min-height: 116px;
+    border-radius: 16px;
+    border: 1px solid #EAECF0;   
+    margin-top: 20px; 
+}
+
+.vaga-titulo {
+    width: fit-content;
+    height: 24px;
+    margin: 20px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;    
+    color: #101828;
+}
+
+.vaga-detalhe {
+    width: fit-content;
+    height: 24px;
+    margin: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;    
+    color: var(--text-color);
+}
+
+.vaga-detalhe span {
+    padding-left: 30px ;
+}
+
+.depoimentos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.depoimentos-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 64px;
+    background-color: #ffebeb;
+    margin: 32px 0px;
+    border-radius: 16px;
+}
+
+.texto-depoimento{
+    color: #101828;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    width: 1088px;
+    margin-bottom: 16px;
+}
+
+.colaborador{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.colaborador img{
+    width: 56px;
+    height: 56px;
+    margin: 16px 0px;
+}
+
+.nome-colaborador{
+    color: #101828;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 4px 0px;
+}
+
+.cargo-colaborador{
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
 }
